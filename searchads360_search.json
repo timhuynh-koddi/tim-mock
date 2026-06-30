@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "customer": {
+        "resourceName": "customers/1234567890",
+        "id": "1234567890",
+        "descriptiveName": "Test Account",
+        "currencyCode": "USD",
+        "timeZone": "America/New_York"
+      },
+      "campaign": {
+        "resourceName": "customers/1234567890/campaigns/111",
+        "id": "111",
+        "name": "Brand - Search",
+        "status": "ENABLED"
+      },
+      "metrics": {
+        "impressions": "1000",
+        "clicks": "50",
+        "costMicros": "25000000"
+      }
+    },
+    {
+      "customer": {
+        "resourceName": "customers/1234567890",
+        "id": "1234567890",
+        "descriptiveName": "Test Account",
+        "currencyCode": "USD",
+        "timeZone": "America/New_York"
+      },
+      "campaign": {
+        "resourceName": "customers/1234567890/campaigns/222",
+        "id": "222",
+        "name": "Non-Brand - Search",
+        "status": "PAUSED"
+      },
+      "metrics": {
+        "impressions": "4200",
+        "clicks": "130",
+        "costMicros": "98000000"
+      }
+    }
+  ],
+  "fieldMask": "customer.id,customer.descriptiveName,customer.currencyCode,customer.timeZone,campaign.id,campaign.name,campaign.status,metrics.impressions,metrics.clicks,metrics.costMicros",
+  "totalResultsCount": "2"
+}

@@ -1,0 +1,20 @@
+{
+  "port": 3333,
+  "readTimeout": "300s",
+  "writeTimeout": "300s",
+  "logLevel": "info",
+  "endpoints": [
+    {
+      "methods": ["GET"],
+      "status": 200,
+      "path": "/v0/customers:listAccessibleCustomers",
+      "jsonPath": "./searchads360_customers.json"
+    },
+    {
+      "methods": ["POST"],
+      "status": 200,
+      "path": "/v0/customers/1234567890/searchAds360:search",
+      "jsonPath": "./searchads360_search.json"
+    }
+  ]
+}
