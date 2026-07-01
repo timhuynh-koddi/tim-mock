@@ -1,3 +1,4 @@
 {
-  "resourceNames": ["customers/1234567890"]
+  "resourceNames": ["customers/{customer_id}"]
+  
 }

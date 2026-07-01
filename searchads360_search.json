@@ -2,14 +2,14 @@
   "results": [
     {
       "customer": {
-        "resourceName": "customers/1234567890",
-        "id": "1234567890",
+        "resourceName": "customers/{customer_id}",
+        "id": "{customer_id}",
         "descriptiveName": "Test Account",
         "currencyCode": "USD",
         "timeZone": "America/New_York"
       },
       "campaign": {
-        "resourceName": "customers/1234567890/campaigns/111",
+        "resourceName": "customers/{customer_id}/campaigns/111",
         "id": "111",
         "name": "Brand - Search",
         "status": "ENABLED"
@@ -22,14 +22,14 @@
     },
     {
       "customer": {
-        "resourceName": "customers/1234567890",
-        "id": "1234567890",
+        "resourceName": "customers/{customer_id}",
+        "id": "{customer_id}",
         "descriptiveName": "Test Account",
         "currencyCode": "USD",
         "timeZone": "America/New_York"
       },
       "campaign": {
-        "resourceName": "customers/1234567890/campaigns/222",
+        "resourceName": "customers/{customer_id}/campaigns/222",
         "id": "222",
         "name": "Non-Brand - Search",
         "status": "PAUSED"

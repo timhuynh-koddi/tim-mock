@@ -13,7 +13,7 @@
     {
       "methods": ["POST"],
       "status": 200,
-      "path": "/v0/customers/1234567890/searchAds360:search",
+      "path": "/v0/customers/{customer_id}/searchAds360:search",
       "jsonPath": "./searchads360_search.json"
     }
   ]
