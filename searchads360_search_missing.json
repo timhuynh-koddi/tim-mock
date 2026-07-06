@@ -1,13 +1,6 @@
 {
   "results": [
     {
-      "customer": {
-        "resourceName": "customers/5045310541",
-        "id": "5045310541",
-        "descriptiveName": "Test Account",
-        "currencyCode": "USD",
-        "timeZone": "America/New_York"
-      },
       "campaign": {
         "resourceName": "customers/5045310541/campaigns/111",
         "id": "111",
@@ -27,12 +20,6 @@
         "descriptiveName": "Test Account",
         "currencyCode": "USD",
         "timeZone": "America/New_York"
-      },
-      "campaign": {
-        "resourceName": "customers/5045310541/campaigns/222",
-        "id": "222",
-        "name": "Non-Brand - Search",
-        "status": "PAUSED"
       },
       "metrics": {
         "impressions": "4200",
