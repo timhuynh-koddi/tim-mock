@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "customer": {
+        "resourceName": "customers/7812634509",
+        "id": "7812634509",
+        "descriptiveName": "Fake Account 2",
+        "currencyCode": "USD",
+        "accountType": "GOOGLE_ADS"
+      },
+      "campaign": {
+        "resourceName": "customers/7812634509/campaigns/31100000001",
+        "id": "31100000001",
+        "name": "Brand - Search",
+        "status": "ENABLED"
+      },
+      "adGroup": {
+        "resourceName": "customers/7812634509/adGroups/40100000001",
+        "id": "40100000001",
+        "name": "Brand - Exact",
+        "status": "ENABLED"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7812634509/adGroupCriteria/40100000001~11111",
+        "keyword": {
+          "text": "fake brand keyword",
+          "matchType": "EXACT"
+        },
+        "status": "ENABLED"
+      },
+      "segments": {
+        "date": "2026-07-05",
+        "device": "MOBILE"
+      },
+      "metrics": {
+        "impressions": "800",
+        "clicks": "45",
+        "costMicros": "22000000",
+        "averageCpc": 488888.0,
+        "conversions": 5.0,
+        "conversionsValue": 500.0
+      }
+    },
+    {
+      "customer": {
+        "resourceName": "customers/7812634509",
+        "id": "7812634509",
+        "descriptiveName": "Fake Account 2",
+        "currencyCode": "USD",
+        "accountType": "GOOGLE_ADS"
+      },
+      "campaign": {
+        "resourceName": "customers/7812634509/campaigns/31100000002",
+        "id": "31100000002",
+        "name": "Non-Brand - Search",
+        "status": "ENABLED"
+      },
+      "adGroup": {
+        "resourceName": "customers/7812634509/adGroups/40100000002",
+        "id": "40100000002",
+        "name": "Non-Brand - Broad",
+        "status": "ENABLED"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7812634509/adGroupCriteria/40100000002~22222",
+        "keyword": {
+          "text": "fake non brand keyword",
+          "matchType": "BROAD"
+        },
+        "status": "ENABLED"
+      },
+      "segments": {
+        "date": "2026-07-05",
+        "device": "DESKTOP"
+      },
+      "metrics": {
+        "impressions": "1200",
+        "clicks": "60",
+        "costMicros": "31000000",
+        "averageCpc": 516666.0,
+        "conversions": 8.0,
+        "conversionsValue": 800.0
+      }
+    }
+  ],
+  "fieldMask": "customer.id,customer.descriptiveName,customer.currencyCode,customer.accountType,campaign.id,campaign.name,campaign.status,adGroup.id,adGroup.name,adGroup.status,adGroupCriterion.keyword.text,adGroupCriterion.keyword.matchType,adGroupCriterion.status,segments.date,segments.device,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.averageCpc,metrics.conversions,metrics.conversionsValue",
+  "totalResultsCount": "2"
+}

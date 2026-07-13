@@ -13,8 +13,20 @@
     {
       "methods": ["POST"],
       "status": 200,
+      "path": "/v0/customers/3159597911/searchAds360:search",
+      "jsonPath": "./searchads360_customer_client_search.json"
+    },
+    {
+      "methods": ["POST"],
+      "status": 200,
       "path": "/v0/customers/5045310541/searchAds360:search",
-      "jsonPath": "./searchads360_keyword_search.json"
+      "jsonPath": "./searchads360_adgroup_search.json"
+    },
+    {
+      "methods": ["POST"],
+      "status": 200,
+      "path": "/v0/customers/7812634509/searchAds360:search",
+      "jsonPath": "./searchads360_adgroup_search_7812634509.json"
     }
   ]
 }

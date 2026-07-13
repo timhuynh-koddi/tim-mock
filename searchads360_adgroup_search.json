@@ -1,0 +1,129 @@
+{
+  "results": [
+    {
+      "customer": {
+        "resourceName": "customers/5045310541",
+        "id": "5045310541",
+        "descriptiveName": "Test Account",
+        "currencyCode": "USD",
+        "accountType": "GOOGLE_ADS"
+      },
+      "campaign": {
+        "resourceName": "customers/5045310541/campaigns/24002445972",
+        "id": "24002445972",
+        "name": "Brand - Search",
+        "status": "ENABLED"
+      },
+      "adGroup": {
+        "resourceName": "customers/5045310541/adGroups/196858448574",
+        "id": "196858448574",
+        "name": "Brand - Exact",
+        "status": "ENABLED"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/5045310541/adGroupCriteria/196858448574~12345",
+        "keyword": {
+          "text": "brand keyword",
+          "matchType": "EXACT"
+        },
+        "status": "ENABLED"
+      },
+      "segments": {
+        "date": "2026-07-05",
+        "device": "MOBILE"
+      },
+      "metrics": {
+        "impressions": "1000",
+        "clicks": "50",
+        "costMicros": "25000000",
+        "averageCpc": 500000.0,
+        "conversions": 6.0,
+        "conversionsValue": 600.0
+      }
+    },
+    {
+      "customer": {
+        "resourceName": "customers/5045310541",
+        "id": "5045310541",
+        "descriptiveName": "Test Account",
+        "currencyCode": "USD",
+        "accountType": "GOOGLE_ADS"
+      },
+      "campaign": {
+        "resourceName": "customers/5045310541/campaigns/24002445972",
+        "id": "24002445972",
+        "name": "Brand - Search",
+        "status": "ENABLED"
+      },
+      "adGroup": {
+        "resourceName": "customers/5045310541/adGroups/196858448574",
+        "id": "196858448574",
+        "name": "Brand - Exact",
+        "status": "ENABLED"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/5045310541/adGroupCriteria/196858448574~12345",
+        "keyword": {
+          "text": "brand keyword",
+          "matchType": "EXACT"
+        },
+        "status": "ENABLED"
+      },
+      "segments": {
+        "date": "2026-07-05",
+        "device": "DESKTOP"
+      },
+      "metrics": {
+        "impressions": "500",
+        "clicks": "30",
+        "costMicros": "15000000",
+        "averageCpc": 500000.0,
+        "conversions": 4.0,
+        "conversionsValue": 400.0
+      }
+    },
+    {
+      "customer": {
+        "resourceName": "customers/5045310541",
+        "id": "5045310541",
+        "descriptiveName": "Test Account",
+        "currencyCode": "USD",
+        "accountType": "GOOGLE_ADS"
+      },
+      "campaign": {
+        "resourceName": "customers/5045310541/campaigns/24002319297",
+        "id": "24002319297",
+        "name": "Non-Brand - Search",
+        "status": "ENABLED"
+      },
+      "adGroup": {
+        "resourceName": "customers/5045310541/adGroups/198901740380",
+        "id": "198901740380",
+        "name": "Non-Brand - Exact",
+        "status": "ENABLED"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/5045310541/adGroupCriteria/198901740380~67890",
+        "keyword": {
+          "text": "non brand keyword",
+          "matchType": "BROAD"
+        },
+        "status": "ENABLED"
+      },
+      "segments": {
+        "date": "2026-07-05",
+        "device": "MOBILE"
+      },
+      "metrics": {
+        "impressions": "700",
+        "clicks": "40",
+        "costMicros": "26000000",
+        "averageCpc": 650000.0,
+        "conversions": 3.0,
+        "conversionsValue": 300.0
+      }
+    }
+  ],
+  "fieldMask": "customer.id,customer.descriptiveName,customer.currencyCode,customer.accountType,campaign.id,campaign.name,campaign.status,adGroup.id,adGroup.name,adGroup.status,adGroupCriterion.keyword.text,adGroupCriterion.keyword.matchType,adGroupCriterion.status,segments.date,segments.device,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.averageCpc,metrics.conversions,metrics.conversionsValue",
+  "totalResultsCount": "3"
+}

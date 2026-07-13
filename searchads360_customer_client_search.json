@@ -1,0 +1,18 @@
+{
+  "results": [
+    {
+      "customerClient": {
+        "resourceName": "customers/3159597911/customerClients/5045310541",
+        "id": "5045310541"
+      }
+    },
+    {
+      "customerClient": {
+        "resourceName": "customers/3159597911/customerClients/7812634509",
+        "id": "7812634509"
+      }
+    }
+  ],
+  "fieldMask": "customerClient.id",
+  "totalResultsCount": "2"
+}
