@@ -11,8 +11,14 @@
         "resourceName": "customers/3159597911/customerClients/7812634509",
         "id": "7812634509"
       }
+    },
+    {
+      "customerClient": {
+        "resourceName": "customers/3159597911/customerClients/9021846375",
+        "id": "9021846375"
+      }
     }
   ],
   "fieldMask": "customerClient.id",
-  "totalResultsCount": "2"
+  "totalResultsCount": "3"
 }

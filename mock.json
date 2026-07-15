@@ -27,6 +27,12 @@
       "status": 200,
       "path": "/v0/customers/7812634509/searchAds360:search",
       "jsonPath": "./searchads360_adgroup_search_7812634509.json"
+    },
+    {
+      "methods": ["POST"],
+      "status": 200,
+      "path": "/v0/customers/9021846375/searchAds360:search",
+      "jsonPath": "./searchads360_adgroup_search_9021846375.json"
     }
   ]
 }

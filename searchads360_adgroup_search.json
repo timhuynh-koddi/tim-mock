@@ -30,7 +30,12 @@
       },
       "segments": {
         "date": "2026-07-05",
-        "device": "MOBILE"
+        "device": "MOBILE",
+        "keyword": {
+          "info": {
+            "matchType": "EXACT"
+          }
+        }
       },
       "metrics": {
         "impressions": "1000",
@@ -71,7 +76,12 @@
       },
       "segments": {
         "date": "2026-07-05",
-        "device": "DESKTOP"
+        "device": "DESKTOP",
+        "keyword": {
+          "info": {
+            "matchType": "EXACT"
+          }
+        }
       },
       "metrics": {
         "impressions": "500",
@@ -112,7 +122,12 @@
       },
       "segments": {
         "date": "2026-07-05",
-        "device": "MOBILE"
+        "device": "MOBILE",
+        "keyword": {
+          "info": {
+            "matchType": "BROAD"
+          }
+        }
       },
       "metrics": {
         "impressions": "700",
@@ -124,6 +139,6 @@
       }
     }
   ],
-  "fieldMask": "customer.id,customer.descriptiveName,customer.currencyCode,customer.accountType,campaign.id,campaign.name,campaign.status,adGroup.id,adGroup.name,adGroup.status,adGroupCriterion.keyword.text,adGroupCriterion.keyword.matchType,adGroupCriterion.status,segments.date,segments.device,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.averageCpc,metrics.conversions,metrics.conversionsValue",
+  "fieldMask": "customer.id,customer.descriptiveName,customer.currencyCode,customer.accountType,campaign.id,campaign.name,campaign.status,adGroup.id,adGroup.name,adGroup.status,adGroupCriterion.keyword.text,adGroupCriterion.keyword.matchType,adGroupCriterion.status,segments.date,segments.device,segments.keyword.info.matchType,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.averageCpc,metrics.conversions,metrics.conversionsValue",
   "totalResultsCount": "3"
 }
